@@ -1,10 +1,10 @@
 ######################### theme kunka condigure ##############################################
 # Where things are
-source:       .
-destination:  ./_site
-plugins_dir:      ./_plugins
-layouts_dir:      ./_layouts
-paginate:     8
+#source:       .
+#destination:  ./_site
+#plugins_dir:      ./_plugins
+#layouts_dir:      ./_layouts
+#paginate:     8
 
 # Handling Reading
 safe:         false
@@ -14,7 +14,7 @@ keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 textile_ext:  "textile"
-gems: ["jekyll-paginate"]
+#gems: ["jekyll-paginate"]
 
 # Filtering Content
 show_drafts:  null
@@ -72,19 +72,19 @@ favicon: http://jekyllrb.com/favicon.png
 #      <p>很早之前，使用过 wordpress 来写博客。但是还要处理很多的底层问题。而使用 Jekyll 来写博客，可以很简单，写 Markdown 就好。然而，Jekyll 还很年轻，没有很多主题的支持。这里的主题，就是为 Jekyll 而写的。希望你能喜欢。</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-follow:
-  - class: icon-rss
-    url: /atom.xml
-  - class: icon-weibo
-    url: http://weibo.com
-  - class: icon-renren
-    url: http://renren.com
-  - class: icon-github-alt
-    url: http://github.com
-  - class: icon-twitter
-    url: http://twitter.com
-  - class: icon-google-plus
-    url: http://google.com
+#follow:
+#  - class: icon-rss
+#    url: /atom.xml
+#  - class: icon-weibo
+#    url: http://weibo.com
+#  - class: icon-renren
+#    url: http://renren.com
+#  - class: icon-github-alt
+#    url: http://github.com
+#  - class: icon-twitter
+#    url: http://twitter.com
+#  - class: icon-google-plus
+#    url: http://google.com
 
 #Links
 #customLinks:
@@ -114,7 +114,7 @@ follow:
 #################################### global configure #######################################
 
 username: xzeng1991
-baseurl: ""
+baseurl: "/blog"
 markdown: redcarpet
 safe: false
 highlighter: pygments
